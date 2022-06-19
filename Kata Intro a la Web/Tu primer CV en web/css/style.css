@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.grid-profile{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    grid-template-areas: 
+    "."
+    "."
+    "."
+    ".";
+    width: 23vw;
+    height: 100vh;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: darkcyan;
+}
+
+.row-image-profile{
+    background-color: darkslategrey;
+}
+
+
+.image-profile{
+     height: 200px;
+     width: 250px;
+     border-radius: 50%;    
+     margin-top: 5%;
+     margin-bottom: 5%;
+}
+
+.titulo-profile{
+    color: azure;
+    margin: 5px;
+}
+
+.linea{
+    border-top: 1px solid darkorange;
+    height: 2px;
+    width: 20vw;
+    padding: 0;
+    margin-bottom: 5%;
+}
+
+.icono{
+    font-size: 30px;
+}
+
+.grid-information{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    grid-template-areas: 
+    "."
+    "."
+    "."
+    ".";
+    width: 77vw;
+    justify-content: space-between;
+    justify-items: center;
+    
+}
